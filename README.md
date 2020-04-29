@@ -1,6 +1,3 @@
-# clash-of-clans
-Code implemented using the Clash of Clans API features
-
 # Overview
 
 These JavaScript files allow for organization of clan and account achievements, stats, etc. using the [Clash of Clans API](https://developer.clashofclans.com/#/).
@@ -19,7 +16,7 @@ The base API URL is *https://api.clashofclans.com/v1/*. All API calls will be ba
 
 All of the code for this project is currently in *clanleaderboards.js*. This code takes a list of different achievements and profile features and creates leaderboards for each, accounting for each member of a specified clan. Command line arguments are needed for the API token and clan tag, as well as an optional file name.
 
-The format looks like *node clanleaderboards.js [TOKEN HERE] [CLAN TAG HERE] [FILE NAME HERE (optional)].
+The format looks like *node clanleaderboards.js* [TOKEN HERE] [CLAN TAG HERE] [FILE NAME HERE (optional)]
 
 example: *node clanleaderboards.js abcdefghijklmnopqrstuvwxyz #ABCD1234 ClanEthan*
 
