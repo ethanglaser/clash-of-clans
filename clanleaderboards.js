@@ -130,8 +130,9 @@ function requesting() {
 
   request(options, (error, response, body) => {
     const info = JSON.parse(body);
-    counter, counter1 = 0, 0;
-
+    counter = 0;
+    counter1 = 0;
+    
     //initialize dict to tag:name
     for (const clanPlayer in info.items) {
       counter1 += 1;
